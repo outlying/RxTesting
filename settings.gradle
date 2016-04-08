@@ -1,1 +1,1 @@
-include ':sample', ':rxtesting-parent'
+include ':sample-espresso', ':rxtesting-parent', ':rxtesting-espresso'
