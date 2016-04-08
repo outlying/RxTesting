@@ -20,8 +20,10 @@ android {
 
 dependencies {
 
-    testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.1.1'
 
     compile project(':rxtesting-parent')
+
+    compile 'junit:junit:4.12'
+    compile 'com.android.support.test.espresso:espresso-core:2.2.1'
 }
